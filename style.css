@@ -1,0 +1,755 @@
+/* body common part section */
+body{
+    font-family: "Inter", sans-serif;
+}
+.textCenter{
+    text-align: center;
+}
+
+.habitSection, .RunanExtra,.TrainingsAndExercises,.BMICalculator,.team{
+    background-color: #000000;
+    padding: 100px 198px ;
+   
+   
+}
+.TrainingsandExercisesContainer,.BMICalculatorContainer,.BMICalculatorChartContainer,.teamContainer,.footerContainer{
+    max-width: 1044px;
+    margin: auto;
+   
+}
+
+.BMICalculatorChart,.Footer{
+    background-color: #222222;
+    padding: 100px 198px ;;
+    
+}
+
+.headline{
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.paragraph{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+    line-height: 24px;
+}
+/* header section */
+.headerbg{
+    background-color: #111111;
+    padding-bottom: 96px;
+}
+
+.header{
+    max-width: 1044px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 58px 190px;
+    
+}
+.logo{
+    width: 132px;
+    height: 43px;
+}
+
+
+
+ul{
+    display:  flex;
+    flex-direction: row;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1px 0px;
+    border-radius: 40px;
+    
+    
+}
+ul li{
+    list-style-type: none;
+    margin-left: 47px;
+    padding: 8px 20px;
+    border-radius: 46px;
+    color: white;
+    size: 18px;
+    text-align: center;
+    
+    
+}
+ul li:first-child {
+    margin-left: 0;
+}
+ul li:hover{
+    background-color: #E6533C;
+ 
+}
+ul li:hover a{
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px ;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+   
+    
+   
+    
+}
+
+
+/* banner section */
+
+.bannerbg{
+    background: linear-gradient( to bottom, #111111 100%, #777777 0%);
+    padding-bottom: 96px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 190px;
+    max-width: 1044px;
+    margin: auto;
+}
+.bannerSectionDiv1{
+    margin-right: 80px;
+    max-width: 520px;
+   
+}
+
+.bannerHeading{
+    color: white;
+    opacity: 0.5;
+    margin-top: 28px;
+    font-size: 16px ;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+.bannerSectionDiv1 button{
+    padding: 16px 45px;
+    border-radius: 42px;
+    font-size: 18px ;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+   
+    
+    
+
+}
+
+.bannerSectionDiv2{
+    position: relative;
+}
+.join{
+    background-color: #E6533C;
+    border: none;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+.app{
+    background-color: transparent;
+    border:1px solid white;
+    cursor: pointer;
+}
+
+.video{
+    width: 193px;
+    
+    border-radius: 12px;
+    padding: 17px;
+    background-color: #383838;
+    background-color: rgba(56, 56, 56, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 120px;
+    right: -100px;
+}
+.tutorial{
+    width: 193px;
+    padding: 17px;
+    border-radius: 12px;
+   
+    background-color: #383838;
+    background-color: rgba(56, 56, 56, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    bottom: 79px;
+    left: -134px;
+    
+}
+.tutorialParentDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.vnumber{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+   
+}
+.free{
+    font-size: 13px;
+    font-weight: 400;
+    color: white ;
+    opacity: 0.6;
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+   
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #E6533C;
+    margin-right: 5px;
+}
+
+
+/* Change Your Habits section */
+
+.habitcontainer{
+    max-width: 1044px;
+    margin: auto;
+    
+}
+
+.habitHeading{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+}
+.habitPara{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 14px;
+    margin-bottom: 60px;
+}
+
+.habitaitem{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.itemDiv{
+    width: 231px;
+}
+
+.habititemImgDiv{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.habititemImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    
+}
+
+.habititemTitle{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    
+    margin-bottom: 6px;
+}
+.habititemPara{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+
+
+/* Run an Extra Mile Easily section */
+.RunanExtraContainer{
+    max-width: 1044px;
+    margin: auto;
+}
+.runDive{
+    background-color: #222222;
+    height: auto;
+    border-radius: 18px;
+    padding: 41px 54px 40px 54px;
+    
+}
+
+.runParentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.runHeading{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+.runPara{
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.5;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.runbtn{
+    padding: 16px 71px;
+    background-color: #E6533C;
+    color: white;
+    border-radius: 42px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.runImg{
+    width: 100%;
+    border-radius: 18px;
+}
+
+
+/* Trainings And Exercises section */
+
+
+
+.TrainingsAndExercises p{
+    margin-bottom: 60px;
+}
+
+
+
+
+.gallery, .gallery2{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    
+    
+}
+.galleryDiv1{
+    width: 20%;
+    padding: 27px 24px;
+    background-image: url(img/exercise1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.galleryDiv1::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(130, 255, 232,0.5); /* Red color with 50% opacity */
+  border-radius: inherit; /* Match the border radius if any */
+  z-index: 1; 
+
+}
+
+.galleryDiv2{
+    width: 50%;
+    padding: 27px 24px;
+    background-image: url(img/exercise2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.galleryDiv2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #651615;
+  opacity: 0.5; /* Red color with 50% opacity */
+  border-radius: inherit; /* Match the border radius if any */
+  z-index: 1; 
+
+}
+.galleryDiv3{
+    width: 30%;
+    padding: 27px 24px;
+    background-image: url(img/exercise3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.galleryDiv3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #797776;
+    opacity: 0.5; /* Red color with 50% opacity */
+    border-radius: inherit; /* Match the border radius if any */
+    z-index: 1; 
+  
+  }
+
+  .galleryDiv4{
+    width: 30%;
+    padding: 27px 24px;
+    background-image: url(img/exercise4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+    
+}
+.galleryDiv4::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #393a36;
+  opacity: 0.5; /* Red color with 50% opacity */
+  border-radius: inherit; /* Match the border radius if any */
+  z-index: 1; 
+
+}
+
+.galleryDiv5{
+    width: 30%;
+    padding: 27px 24px;
+    background-image: url(img/exercise5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+    
+}
+.galleryDiv5::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #74912d;
+  opacity: 0.5; /* Red color with 50% opacity */
+  border-radius: inherit; /* Match the border radius if any */
+  z-index: 1; 
+
+}
+
+.galleryDiv6{
+    width: 40%;
+    padding: 27px 24px;
+    background-image: url(img/exercise6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+    
+}
+.galleryDiv6::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a5baf1;
+  opacity: 0.5; /* Red color with 50% opacity */
+  border-radius: inherit; /* Match the border radius if any */
+  z-index: 1; 
+
+}
+
+
+
+
+.galleryDiv1 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px 27px;
+    
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+.galleryDiv2 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px 27px;
+    
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+.galleryDiv3 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px 27px;
+    
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+
+  .galleryDiv4 p {
+    position: absolute;
+    left: 180px;
+    width: 100%;
+    margin: 0;
+    padding: 24px 27px;
+    
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+
+.galleryDiv5 p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  
+    padding: 24px 27px;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+
+.galleryDiv6 p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  
+    padding: 24px 27px;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder; /* Text color */
+    z-index: 2; /* Ensure the text is above the overlay */
+
+}
+
+
+
+/* BMI Calculator section */
+.BMICalculatorDiv{
+    margin-left: 27%;
+}
+.BMICalculatorCharyDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start
+}
+
+.BMICalculatorCharyDiv1,.BMICalculatorCharyDiv2{
+    width: 50%;
+}
+
+.BmiTitle{
+    font-size: 28px;
+    color: white;
+    font-weight: 800;
+
+}
+
+.Bmipara{
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+    line-height: 24px;
+}
+
+
+table {
+    width: 57%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    padding: 15px 5px 18px 18px;
+    text-align: left;
+}
+th {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+td {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.input{
+    background-color: #373737;
+   
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 60%;
+    margin: 12px;
+}
+.inputt{
+    background-color: #373737;
+   width: 87%;
+    padding: 13px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    opacity: 60%;
+    margin: 12px;
+}
+
+
+/* team section */
+.teamGallery{
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 18px;
+    margin-top: 60px;
+}
+
+.teamGalleryDIV{
+    display: flex;
+    flex-wrap: wrap; /* Allow the flex items to wrap onto multiple lines */
+    gap: 0px;
+
+}
+.Teamitem {
+    flex: 1 1 calc(33.333% - 10px); /* Take up 1/3 of the container width minus the gap */
+    
+    padding: 20px; /* Padding inside each item */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center; /* Center the text */
+    
+    border-radius: 4px; /* Optional: Round the corners */
+    width: 30%;
+}
+.Teamitem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+
+
+.FooterDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footerDiv1{
+    width: 50%;
+}
+.footerDiv2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+.footerDiv2Ch1{
+    width: 50%;
+}
+.footerDiv2Ch2{
+    width: 50%;
+}
+.footerTitle{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 39px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.5;
+}
+
+
+.hr{
+    height: 1px;
+    background-color: white ;
+    opacity: 0.5;
+    margin-top: 30px;
+}
